@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{6E8C20A2-ABF6-4C2C-AE9D-EC361EC7D911}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="TFreeImage.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="sample.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="TFreeImage">
+        <MSBuild Projects="TFreeImage.cbproj"/>
+    </Target>
+    <Target Name="TFreeImage:Clean">
+        <MSBuild Projects="TFreeImage.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TFreeImage:Make">
+        <MSBuild Projects="TFreeImage.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="sample">
+        <MSBuild Projects="sample.cbproj"/>
+    </Target>
+    <Target Name="sample:Clean">
+        <MSBuild Projects="sample.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="sample:Make">
+        <MSBuild Projects="sample.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="TFreeImage;sample"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="TFreeImage:Clean;sample:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="TFreeImage:Make;sample:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

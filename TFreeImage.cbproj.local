@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/11/17 22:51:30.000.412,=rtl.bpi</Transaction>
+    <Transaction>2014/11/17 22:51:30.000.414,=C:\Users\inu\Documents\RAD Studio\Projects\TFreeImagePCH1.h</Transaction>
+    <Transaction>2014/11/17 22:51:50.000.761,=vcl.bpi</Transaction>
+    <Transaction>2014/11/17 22:51:50.000.742,=C:\Users\inu\Documents\RAD Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\FreeImage.cpp</Transaction>
+    <Transaction>2014/11/17 22:52:07.000.507,C:\Users\inu\Documents\RAD Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\TFreeImagePCH1.h=C:\Users\inu\Documents\RAD Studio\Projects\TFreeImagePCH1.h</Transaction>
+    <Transaction>2014/11/17 22:52:26.000.100,C:\Users\inu\Documents\RAD Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\TFreeImage.cbproj=C:\Users\inu\Documents\RAD Studio\Projects\TFreeImage.cbproj</Transaction>
+    <Transaction>2014/11/17 22:52:44.000.573,=C:\Users\inu\Documents\RAD Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\Dist\FreeImage.dll</Transaction>
+    <Transaction>2014/11/17 22:52:44.000.593,=C:\Users\inu\Documents\RAD Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\Dist\FreeImage.lib</Transaction>
+    <Transaction>2014/11/17 22:52:44.000.590,=C:\Users\inu\Documents\RAD Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\Dist\FreeImage.h</Transaction>
+    <Transaction>2014/11/25 04:39:58.000.438,=C:\Users\inu\Documents\RAD Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage2\FreeImage.cpp</Transaction>
+    <Transaction>2014/11/25 04:40:41.000.033,C:\Users\inu\Documents\RAD Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage2\FreeImage.cpp=</Transaction>
+    <Transaction>2015/02/03 22:18:38.000.636,=C:\Users\inu\Documents\RAD Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\ScrollBox1.cpp</Transaction>
+    <Transaction>2015/02/03 22:19:23.000.257,C:\Users\inu\Documents\RAD Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\ScrollBox1.cpp=</Transaction>
+    <Transaction>2015/02/17 07:09:12.000.166,C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\TFreeImageRTL.cbproj=C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\TFreeImage.cbproj</Transaction>
+    <Transaction>2015/02/17 07:09:46.000.570,C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\FreeImageRTL.cpp=C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\FreeImage.cpp</Transaction>
+    <Transaction>2015/02/17 07:09:46.000.570,C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\FreeImageRTL.h=C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\FreeImage.h</Transaction>
+    <Transaction>2015/02/17 07:11:13.000.574,C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\TFreeImage.cbproj=C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\TFreeImageRTL.cbproj</Transaction>
+    <Transaction>2015/02/17 07:11:21.000.584,C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\FreeImage.cpp=C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\FreeImageRTL.cpp</Transaction>
+    <Transaction>2015/02/17 07:11:21.000.584,C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\FreeImage.h=C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\FreeImageRTL.h</Transaction>
+  </Transactions>
+</BorlandProject>
