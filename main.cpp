@@ -7,6 +7,7 @@
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma link "FreeImage"
+#pragma link "FIBox"
 #pragma resource "*.dfm"
 TForm1 *Form1;
 //---------------------------------------------------------------------------
@@ -44,6 +45,7 @@ void __fastcall TForm1::FormActivate(TObject *Sender)
 //	}
 //	Image1->Picture->Bitmap->Handle = FreeImage1->LoadHBitmap(FileName);
 	Image1->Picture->Bitmap = FreeImage1->LoadTBitmap(FileName);
+	FIBox1->Image->Picture->Bitmap = FreeImage1->LoadTBitmap(FileName);
 }
 //---------------------------------------------------------------------------
 void __fastcall TForm1::Image1MouseMove(TObject *Sender, TShiftState Shift, int X, int Y)
@@ -85,3 +87,11 @@ void __fastcall TForm1::ScrollBox1Resize(TObject *Sender)
 	Image1->Top = Max(((ScrollBox1->ClientHeight - Image1->Height) / 2), 0);
 }
 //---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button1Click(TObject *Sender)
+{
+	String FileName = L"sample.jpg";
+	FIBox1->Image->Picture->Bitmap = FreeImage1->LoadTBitmap(FileName);
+}
+//---------------------------------------------------------------------------
+

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2015/08/15 06:29:01.000.320,C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\TFreeImageProjects.groupproj=C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\ProjectGroup1.groupproj</Transaction>
+    <Transaction>2015/08/15 06:29:01.000.320,C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\ProjectGroup1.groupproj=C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\TFreeImageProjects.groupproj</Transaction>
   </Transactions>
 	<Default.Personality>
-		<Projects ActiveProject="C:\Users\leiqunni\Desktop\TFreeImage-fbef7707f5d9c011b1a7f6266e18f804388f8853\sample.cbproj"/>
+		<Projects ActiveProject="C:\Users\leiqunni\Documents\GitHub\TFreeImage\TFreeImage.cbproj"/>
 	</Default.Personality>
 </BorlandProject>
