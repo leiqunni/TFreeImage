@@ -132,8 +132,8 @@
             <BuildOrder>7</BuildOrder>
             <IgnorePath>true</IgnorePath>
         </LibFiles>
-        <CppCompile Include="FIBox.cpp">
-            <DependentOn>FIBox.h</DependentOn>
+        <CppCompile Include="FIImageBox.cpp">
+            <DependentOn>FIImageBox.h</DependentOn>
             <BuildOrder>7</BuildOrder>
         </CppCompile>
         <CppCompile Include="FreeImage.cpp">
