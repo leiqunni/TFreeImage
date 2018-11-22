@@ -52,7 +52,7 @@ HBITMAP __fastcall TFreeImage::LoadHBitmap(const String filename)
         // ok, let's load the file
         dib = LoadU(fif, filename.w_str());
     }
-    if (dib) {
+	if (dib) {
         HDC hDc = ::GetDC(0);
         hBmp = ::CreateDIBitmap(hDc, GetInfoHeader(dib), CBM_INIT, GetBits(dib), GetInfo(dib), DIB_RGB_COLORS);
         ::ReleaseDC(0, hDc);
@@ -187,46 +187,102 @@ void __fastcall TFreeImage::Unload(FIBITMAP* dib)
 {
     FreeImage_Unload(dib);
 }
+
 // ---------------------------------------------------------------------------
+// Bitmap information functions
+// ---------------------------------------------------------------------------
+
 FREE_IMAGE_FORMAT __fastcall TFreeImage::GetFIFFromFilename(const char* filename)
 {
     return FreeImage_GetFIFFromFilename(filename);
 }
+
 // ---------------------------------------------------------------------------
-FREE_IMAGE_FORMAT __fastcall TFreeImage::GetFIFFromFilenameU(const wchar_t* filename)
+FREE_IMAGE_TYPE __fastcall TFreeImage::GetImageType(FIBITMAP* dib)
 {
-    return FreeImage_GetFIFFromFilenameU(filename);
+	return FreeImage_GetImageType(dib);
 }
+
 // ---------------------------------------------------------------------------
 
-bool __fastcall TFreeImage::FIFSupportsReading(FREE_IMAGE_FORMAT fif)
+unsigned int __fastcall TFreeImage::GetColorsUsed(FIBITMAP* dib)
 {
-    return FreeImage_FIFSupportsReading(fif);
+	return FreeImage_GetColorsUsed(dib);
 }
 
 // ---------------------------------------------------------------------------
 
 unsigned int __fastcall TFreeImage::GetBPP(FIBITMAP* dib)
 {
-    return FreeImage_GetBPP(dib);
+	return FreeImage_GetBPP(dib);
 }
 // ---------------------------------------------------------------------------
 
 unsigned int __fastcall TFreeImage::GetWidth(FIBITMAP* dib)
 {
-    return FreeImage_GetWidth(dib);
+	return FreeImage_GetWidth(dib);
 }
 // ---------------------------------------------------------------------------
 
 unsigned int __fastcall TFreeImage::GetHeight(FIBITMAP* dib)
 {
-    return FreeImage_GetHeight(dib);
+	return FreeImage_GetHeight(dib);
 }
 
 // ---------------------------------------------------------------------------
-FREE_IMAGE_TYPE __fastcall TFreeImage::GetImageType(FIBITMAP* dib)
+
+unsigned int __fastcall TFreeImage::GetLine(FIBITMAP* dib)
 {
-    return FreeImage_GetImageType(dib);
+	return FreeImage_GetLine(dib);
+}
+
+// ---------------------------------------------------------------------------
+
+unsigned int __fastcall TFreeImage::GetPitch(FIBITMAP* dib)
+{
+	return FreeImage_GetPitch(dib);
+}
+
+// ---------------------------------------------------------------------------
+
+unsigned int __fastcall TFreeImage::GetDIBSize(FIBITMAP* dib)
+{
+	return FreeImage_GetDIBSize(dib);
+}
+
+// ---------------------------------------------------------------------------
+
+RGBQUAD* __fastcall TFreeImage::GetPalette(FIBITMAP* dib)
+{
+	return FreeImage_GetPalette(dib);
+}
+
+// ---------------------------------------------------------------------------
+
+unsigned int __fastcall TFreeImage::GetDotsPerMeterX(FIBITMAP* dib)
+{
+	return FreeImage_GetDotsPerMeterX(dib);
+}
+
+// ---------------------------------------------------------------------------
+
+unsigned int __fastcall TFreeImage::GetDotsPerMeterY(FIBITMAP* dib)
+{
+	return FreeImage_GetDotsPerMeterY(dib);
+}
+
+// ---------------------------------------------------------------------------
+
+void __fastcall TFreeImage::SetDotsPerMeterX(FIBITMAP* dib, unsigned res)
+{
+	FreeImage_SetDotsPerMeterX(dib, res);
+}
+
+// ---------------------------------------------------------------------------
+
+void __fastcall TFreeImage::SetDotsPerMeterY(FIBITMAP* dib, unsigned res)
+{
+	FreeImage_SetDotsPerMeterY(dib, res);
 }
 
 // ---------------------------------------------------------------------------
@@ -240,6 +296,127 @@ BITMAPINFO* __fastcall TFreeImage::GetInfo(FIBITMAP* dib)
 {
     return FreeImage_GetInfo(dib);
 }
+
+// ---------------------------------------------------------------------------
+
+FREE_IMAGE_COLOR_TYPE __fastcall TFreeImage::GetColorType(FIBITMAP* dib)
+{
+	return FreeImage_GetColorType(dib);
+}
+
+// ---------------------------------------------------------------------------
+
+unsigned int __fastcall TFreeImage::GetRedMask(FIBITMAP* dib)
+{
+	return FreeImage_GetRedMask(dib);
+}
+
+// ---------------------------------------------------------------------------
+
+unsigned int __fastcall TFreeImage::GetGreenMask(FIBITMAP* dib)
+{
+	return FreeImage_GetGreenMask(dib);
+}
+// ---------------------------------------------------------------------------
+
+unsigned int __fastcall TFreeImage::GetBlueMask(FIBITMAP* dib)
+{
+	return FreeImage_GetBlueMask(dib);
+}
+
+// ---------------------------------------------------------------------------
+
+unsigned int __fastcall TFreeImage::GetTransparencyCount(FIBITMAP* dib)
+{
+	return FreeImage_GetTransparencyCount(dib);
+}
+
+// ---------------------------------------------------------------------------
+
+BYTE* __fastcall TFreeImage::GetTransparencyTable(FIBITMAP* dib)
+{
+	return FreeImage_GetTransparencyTable(dib);
+}
+
+// ---------------------------------------------------------------------------
+
+void __fastcall TFreeImage::SetTransparencyTable(FIBITMAP* dib, BYTE* table, int count)
+{
+	FreeImage_SetTransparencyTable(dib, table, count);
+}
+
+// ---------------------------------------------------------------------------
+
+void __fastcall TFreeImage::SetTransparent(FIBITMAP* dib, bool enabled)
+{
+	FreeImage_SetTransparent(dib, enabled);
+}
+
+// ---------------------------------------------------------------------------
+
+bool __fastcall TFreeImage::IsTransparent(FIBITMAP* dib)
+{
+	return FreeImage_IsTransparent(dib);
+}
+
+// ---------------------------------------------------------------------------
+
+void __fastcall TFreeImage::SetTransparentIndex(FIBITMAP* dib, int index)
+{
+	FreeImage_SetTransparentIndex(dib, index);
+}
+
+// ---------------------------------------------------------------------------
+
+int __fastcall TFreeImage::GetTransparentIndex(FIBITMAP* dib)
+{
+	return FreeImage_GetTransparentIndex(dib);
+}
+
+// ---------------------------------------------------------------------------
+
+bool __fastcall TFreeImage::HasBackgroundColor(FIBITMAP* dib)
+{
+	return FreeImage_HasBackgroundColor(dib);
+}
+
+// ---------------------------------------------------------------------------
+
+bool __fastcall TFreeImage::GetBackgroundColor(FIBITMAP* dib, RGBQUAD* bkcolor)
+{
+	return FreeImage_GetBackgroundColor(dib, bkcolor);
+}
+
+// ---------------------------------------------------------------------------
+
+bool __fastcall TFreeImage::SetBackgroundColor(FIBITMAP* dib, RGBQUAD* bkcolor)
+{
+	return FreeImage_SetBackgroundColor(dib, bkcolor);
+}
+
+// ---------------------------------------------------------------------------
+
+bool __fastcall TFreeImage::HasPixels(FIBITMAP* dib)
+{
+	return FreeImage_HasPixels(dib);
+}
+
+// ---------------------------------------------------------------------------
+
+FREE_IMAGE_FORMAT __fastcall TFreeImage::GetFIFFromFilenameU(const wchar_t* filename)
+{
+    return FreeImage_GetFIFFromFilenameU(filename);
+}
+// ---------------------------------------------------------------------------
+
+bool __fastcall TFreeImage::FIFSupportsReading(FREE_IMAGE_FORMAT fif)
+{
+    return FreeImage_FIFSupportsReading(fif);
+}
+
+
+
+
 
 // ---------------------------------------------------------------------------
 BYTE* __fastcall TFreeImage::GetBits(FIBITMAP* dib)

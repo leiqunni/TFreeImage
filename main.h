@@ -33,6 +33,7 @@ __published:	// IDE で管理されるコンポーネント
 	TMenuItem *mnuViewZoomMode;
 	TFreeImage *FreeImage1;
 	TFIImageBox *FIImageBox1;
+
 	void __fastcall FormActivate(TObject *Sender);
 	void __fastcall mnuViewArctualClick(TObject *Sender);
 	void __fastcall mnuViewFitClick(TObject *Sender);

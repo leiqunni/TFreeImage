@@ -28,8 +28,16 @@ object Form1: TForm1
     Top = 0
     Width = 316
     Height = 190
+    HorzScrollBar.Tracking = True
+    VertScrollBar.Tracking = True
     Align = alClient
+    DoubleBuffered = True
+    ParentDoubleBuffered = False
     TabOrder = 0
+    ExplicitLeft = 328
+    ExplicitTop = 8
+    ExplicitWidth = 281
+    ExplicitHeight = 177
   end
   object MainMenu1: TMainMenu
     Left = 72
@@ -64,7 +72,7 @@ object Form1: TForm1
     end
   end
   object FreeImage1: TFreeImage
-    Left = 240
-    Top = 96
+    Left = 440
+    Top = 104
   end
 end
