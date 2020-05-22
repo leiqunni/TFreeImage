@@ -7,7 +7,7 @@
 #include <Classes.hpp>
 #include <Vcl.Graphics.hpp>
 
-#include "Dist\FreeImage.h"
+#include "Dist\x32\FreeImage.h"
 
 // ---------------------------------------------------------------------------
 class PACKAGE TFreeImage : public TComponent {

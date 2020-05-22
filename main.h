@@ -7,17 +7,19 @@
 #include <Vcl.Controls.hpp>
 #include <Vcl.StdCtrls.hpp>
 #include <Vcl.Forms.hpp>
-#include "FreeImage.h"
+
 #include <Vcl.ExtCtrls.hpp>
 #include <System.Math.hpp>
 #include <stdio.h>
 #include <Vcl.Buttons.hpp>
 #include <Vcl.ComCtrls.hpp>
 #include <Vcl.ToolWin.hpp>
-#include "FIImageBox.h"
+
 #include <Vcl.WinXCtrls.hpp>
-#include "FIImageBox.h"
 #include <Vcl.Menus.hpp>
+
+#include "FreeImage.h"
+#include "FIImageBox.h"
 
 //---------------------------------------------------------------------------
 class TForm1 : public TForm

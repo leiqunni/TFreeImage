@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2015/05/11 00:03:40.000.869,=C:\Users\inu\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
     <Transaction>2015/05/11 00:03:40.000.894,=C:\Users\inu\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
-    <Transaction>2015/05/11 00:51:02.000.016,C:\Users\inu\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\Unit1.h</Transaction>
-    <Transaction>2015/05/11 00:51:02.000.016,C:\Users\inu\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\Unit1.cpp</Transaction>
-    <Transaction>2015/05/11 00:51:02.000.016,C:\Users\inu\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\Unit1.dfm</Transaction>
-    <Transaction>2015/05/11 00:51:07.000.176,C:\Users\inu\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\Project1PCH1.h</Transaction>
-    <Transaction>2015/05/11 00:51:10.000.935,C:\Users\inu\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\Project1.cbproj</Transaction>
-    <Transaction>2015/08/14 07:49:09.000.022,C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\samplePCH1.h=C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\Project1PCH1.h</Transaction>
-    <Transaction>2015/08/14 07:49:09.000.050,C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\sample.cbproj=C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\Project1.cbproj</Transaction>
-    <Transaction>2015/08/15 06:28:16.000.120,C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\Unit1.dfm=C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\main.dfm</Transaction>
-    <Transaction>2015/08/15 06:28:16.000.120,C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\Unit1.h=C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\main.h</Transaction>
-    <Transaction>2015/08/15 06:28:16.000.119,C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\Unit1.cpp=C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\main.cpp</Transaction>
+    <Transaction>2015/05/11 00:03:40.000.869,=C:\Users\inu\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2015/05/11 00:51:02.000.016,C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\Unit1.h=C:\Users\inu\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2015/05/11 00:51:02.000.016,C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\Unit1.cpp=C:\Users\inu\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2015/05/11 00:51:02.000.016,C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\Unit1.dfm=C:\Users\inu\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2015/05/11 00:51:07.000.176,C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\Project1PCH1.h=C:\Users\inu\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2015/05/11 00:51:10.000.935,C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\Project1.cbproj=C:\Users\inu\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2015/08/14 07:49:09.000.050,C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\Project1.cbproj=C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\sample.cbproj</Transaction>
+    <Transaction>2015/08/14 07:49:09.000.022,C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\Project1PCH1.h=C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\samplePCH1.h</Transaction>
+    <Transaction>2015/08/15 06:28:16.000.120,C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\main.h=C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\Unit1.h</Transaction>
+    <Transaction>2015/08/15 06:28:16.000.119,C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\main.cpp=C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\Unit1.cpp</Transaction>
+    <Transaction>2015/08/15 06:28:16.000.120,C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\main.dfm=C:\Users\inu\Documents\Embarcadero\Studio\Projects\FreeImage\Wrapper\BCB\TFreeImage\Unit1.dfm</Transaction>
   </Transactions>
 </BorlandProject>
