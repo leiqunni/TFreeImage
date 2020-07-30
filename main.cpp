@@ -8,6 +8,8 @@
 #pragma package(smart_init)
 #pragma link "FreeImage"
 #pragma link "FIImageBox"
+#pragma link "FIImageBox"
+#pragma link "FreeImage"
 #pragma resource "*.dfm"
 TForm1 *Form1;
 //---------------------------------------------------------------------------

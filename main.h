@@ -17,9 +17,9 @@
 
 #include <Vcl.WinXCtrls.hpp>
 #include <Vcl.Menus.hpp>
-
-#include "FreeImage.h"
 #include "FIImageBox.h"
+#include "FreeImage.h"
+
 
 //---------------------------------------------------------------------------
 class TForm1 : public TForm
@@ -33,8 +33,8 @@ __published:	// IDE で管理されるコンポーネント
 	TMenuItem *mnuViewFit;
 	TMenuItem *mnuViewStretch;
 	TMenuItem *mnuViewZoomMode;
-	TFreeImage *FreeImage1;
 	TFIImageBox *FIImageBox1;
+	TFreeImage *FreeImage1;
 
 	void __fastcall FormActivate(TObject *Sender);
 	void __fastcall mnuViewArctualClick(TObject *Sender);

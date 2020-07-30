@@ -35,9 +35,9 @@ object Form1: TForm1
     DoubleBuffered = True
     ParentDoubleBuffered = False
     TabOrder = 0
-    ExplicitLeft = 472
-    ExplicitTop = 112
-    ExplicitWidth = 241
+    ExplicitLeft = 352
+    ExplicitTop = 120
+    ExplicitWidth = 337
     ExplicitHeight = 193
   end
   object MainMenu1: TMainMenu
@@ -73,7 +73,7 @@ object Form1: TForm1
     end
   end
   object FreeImage1: TFreeImage
-    Left = 360
-    Top = 232
+    Left = 200
+    Top = 56
   end
 end
