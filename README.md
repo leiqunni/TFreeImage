@@ -1,4 +1,4 @@
-# FreeImage VCL wrapper with BCB
+# FreeImage VCL wrapper with C++Builder
 
 ## What is this?
 
