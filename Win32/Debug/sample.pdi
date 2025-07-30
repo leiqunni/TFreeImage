@@ -1,4 +1,5 @@
-vclimg260.bpl
+rtl290.bpl
+bindengine290.bpl
+vclimg290.bpl
 TFreeImage.bpl
-vcl260.bpl
-rtl260.bpl
+vcl290.bpl

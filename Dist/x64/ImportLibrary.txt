@@ -1,0 +1,3 @@
+MKEXP.EXE, the 64-bit Windows Import Library Tool for C++
+
+mkexp.exe FreeImage.a FreeImage.dll
